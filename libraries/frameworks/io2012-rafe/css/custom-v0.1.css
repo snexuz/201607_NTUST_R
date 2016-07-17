@@ -1,0 +1,72 @@
+img.fit100 {
+  max-width:100%;
+  max-height:100%;
+}
+
+.title-slide hgroup {
+    position: relative;
+    top: 25%;
+    left: 0;
+    text-align: center;
+}
+
+.title-slide hgroup > h1 {
+    margin-bottom: 26px;
+}
+
+.title-slide hgroup > p {
+    text-align: center;
+    font-size: 110%;
+    line-height: 1.7em;
+    padding-top: 30px;
+}
+
+
+
+slides slide.largecontent h3 {
+  /*font-size: 40px;*/
+  font-style: normal;
+  line-height: 1.1em;
+}
+
+slides slide.largecontent li {
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+slides > slide:not(.nobackground):after {
+  font-size: 12pt;
+  content: attr(data-slide-num) "/" attr(data-total-slides);
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  line-height: 1.9;
+}
+
+pre > code {
+  text-align: left;
+}
+
+.title-slide {
+  background-image: url('../images/dsp-page-white1100.jpg') !important;
+}
+
+slides slide{
+  background-image: url('../images/dsp-page-white1100.jpg') !important;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 100% 100%;
+}
+
+article p, article li, article li.build, section p, section li {
+    margin-bottom: 0em !important;
+}
+
+slides > slide > hgroup + article p {
+  font-size: 1em;
+}
+
+ul ul{
+  margin-top: 5px;
+}
