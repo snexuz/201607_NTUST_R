@@ -1,7 +1,6 @@
 ---
 title: 'Ch1: R-Basic'
 author: "劉佳欣 Rafe C. H. Liu / Johnson Hsieh"
-date: "2016/7 @ NTUST"
 output:
   html_document:
     css: styles.css
@@ -478,6 +477,6 @@ data <- read.table(file = file.choose(), sep=',')
 
 <div style="text-align: center;">
 <br> Thanks!<br>
-201607_NTUST_R<br>
+NTUST_R<br>
 Rafe C.H. Liu｜[Contact](mailto:snexuz@gmail.com)｜[Linkedin](http://tw.linkedin.com/in/rafechliu)
 </div>

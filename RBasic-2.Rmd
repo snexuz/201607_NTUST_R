@@ -1,7 +1,6 @@
 ---
 title: 'Ch2: R-ETL: dplyr'
 author: "劉佳欣 Rafe C. H. Liu / Johnson Hsieh / George Chao"
-date: "2016/7 @ NTUST"
 output:
   html_document:
     css: styles.css
@@ -70,7 +69,10 @@ write.csv(file = "ubikeweatherutf8.csv", x = raw2, fileEncoding = "UTF-8")
 ```
 
 ### 本日資料檔
-- [ubike x weather 資料檔](https://github.com/snexuz/2016DSP_dplyr/tree/master/data)
+ubike x weather 資料檔(右鍵另存新檔)
+
+   - [big5 (WIN)](https://github.com/snexuz/2016DSP_dplyr/raw/master/data/ubike-weather-big5.csv)
+   - [utf8 (MAC, LINUX)](https://github.com/snexuz/2016DSP_dplyr/raw/master/data/ubike-weather-utf8.csv)
 
 ```{r, echo=TRUE, eval=FALSE}
 # 必先確認 Working Directory!
@@ -609,6 +611,6 @@ write.csv(file = 'open.csv', y, fileEncoding = 'big5')
 
 <div style="text-align: center;">
 <br> Thanks!<br>
-201607_NTUST_R<br>
+NTUST_R<br>
 Rafe C.H. Liu｜[Contact](mailto:snexuz@gmail.com)｜[Linkedin](http://tw.linkedin.com/in/rafechliu)
 </div>
