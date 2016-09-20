@@ -1,1 +1,2 @@
-# 2016329_NCTU_ETL
+劉佳欣 Rafe C. H. Liu <br>
+[Mail](snexuz@gmail.com) / [LinkedIn](https://www.linkedin.com/in/rafechliu)
