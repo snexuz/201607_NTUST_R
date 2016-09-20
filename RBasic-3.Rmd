@@ -1,7 +1,6 @@
 ---
 title: 'Ch3: R-EDA: ggplot2'
 author: "劉佳欣 Rafe C. H. Liu / Johnson Hsieh"
-date: "2016/7 @ NTUST"
 output:
   html_document:
     css: styles.css
@@ -85,6 +84,7 @@ ls(pattern = '^geom_', env = as.environment('package:ggplot2'))
 
 ## 3.1 Histogram
 ```{r}
+# hist(diamonds$price)
 ggplot(diamonds, aes(x=price)) + 
   geom_histogram(binwidth=1000)
 
@@ -99,6 +99,10 @@ ggplot(diamonds, aes(x=price)) +
 - Plot by counting (default)
 
 ```{r}
+# counts <- table(diamonds$clarity)
+# barplot(counts, main="Car Distribution", 
+#   	xlab="Number of Gears")
+
 # by default, stat = "bin"
 ggplot(diamonds, aes(x=clarity)) + 
   geom_bar()
@@ -215,7 +219,7 @@ ggplot(mtcars, aes(x=mpg, y=disp)) +
   
 <div style="text-align: center;">
 <br> Thanks!<br>
-201607_NTUST_R<br>
+NTUST_R<br>
 Rafe C.H. Liu｜[Contact](mailto:snexuz@gmail.com)｜[Linkedin](http://tw.linkedin.com/in/rafechliu)
 </div>
 
